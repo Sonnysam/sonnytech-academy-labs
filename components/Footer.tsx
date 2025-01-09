@@ -36,7 +36,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="border-t border-white/10 mt-16 pt-8 text-center text-gray-400">
-                    <p>&copy; 2025 Sonnytech. All rights reserved.</p>
+                    <p>&copy; 2025 Sonnytech Academy Labs. All rights reserved.</p>
                 </div>
             </div>
         </footer>

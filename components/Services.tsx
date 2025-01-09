@@ -1,29 +1,7 @@
-import { Monitor, DevicePhone, Cloud, Database } from 'lucide-react';
+import { services } from '@/data';
+import { Monitor, ArrowRight } from 'lucide-react';
 
 export default function Services() {
-    const services = [
-        {
-            icon: <Monitor className="w-8 h-8" />,
-            title: "Web Development",
-            description: "Modern, responsive web applications built with Next.js and React"
-        },
-        {
-            icon: <DevicePhone className="w-8 h-8" />,
-            title: "Mobile Development",
-            description: "Native and cross-platform mobile apps for iOS and Android"
-        },
-        {
-            icon: <Cloud className="w-8 h-8" />,
-            title: "Cloud Solutions",
-            description: "Scalable cloud infrastructure and DevOps automation"
-        },
-        {
-            icon: <Database className="w-8 h-8" />,
-            title: "Tech Consulting",
-            description: "Strategic technology guidance and digital transformation"
-        }
-    ];
-
     return (
         <section className="py-32" id="services">
             <div className="container mx-auto px-6">

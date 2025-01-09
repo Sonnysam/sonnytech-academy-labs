@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Logo from './Logo';
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
         <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
             <div className="container mx-auto px-6">
                 <div className="flex items-center justify-between">
-                    <div className="text-xl font-bold">Sonnytech</div>
+                    <Logo />
                     <div className="hidden md:flex items-center gap-8">
                         <a href="#services" className="hover:text-gray-300">Services</a>
                         <a href="#work" className="hover:text-gray-300">Work</a>
