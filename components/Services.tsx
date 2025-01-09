@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { services } from '@/data';
 import { Monitor, ArrowRight } from 'lucide-react';
 

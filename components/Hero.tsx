@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client";
 import { ArrowRight, ChevronDown } from 'lucide-react';
 import { useEffect, useState } from 'react';

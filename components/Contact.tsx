@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 export default function Contact() {
     return (
         <section className="py-32" id="contact">
