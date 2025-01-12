@@ -2,11 +2,11 @@ import Academy from '@/components/Academy'
 import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
-import Programs from '@/components/Programs'
+// import Programs from '@/components/Programs'
 import Services from '@/components/Services'
 import Stats from '@/components/Stats'
 import TechStack from '@/components/TechStack'
-import Testimonials from '@/components/Testimonials'
+// import Testimonials from '@/components/Testimonials'
 import React from 'react'
 
 const HomePage = () => {
@@ -16,10 +16,10 @@ const HomePage = () => {
             <Hero />
             <Services />
             <Academy />
-            <Programs />
+            {/* <Programs /> */}
             <Stats />
             <TechStack />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Contact />
         </>
     )
