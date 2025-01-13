@@ -18,7 +18,7 @@ const Academy = () => {
                         </div>
 
                         <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-                            Tech Academy
+                            Sonnytech Academy
                         </h2>
 
                         <p className="text-gray-400 mb-12 text-lg leading-relaxed">
@@ -30,13 +30,13 @@ const Academy = () => {
                             {[
                                 {
                                     title: "Tech Internship Program",
-                                    description: "3-6 month immersive program in modern web and mobile development",
+                                    description: "1-3 month immersive program in modern web and mobile development",
                                     features: ["Hands-on projects", "1:1 Mentorship", "Career support"],
                                     icon: <GraduationCap className="w-6 h-6 text-indigo-400" />
                                 },
                                 {
                                     title: "High School Program",
-                                    description: "Introduction to coding and tech careers for young minds",
+                                    description: "Introduction to coding and tech careers for young minds in secondary schools",
                                     features: ["Coding basics", "Career guidance", "Build projects"],
                                     icon: <Sparkles className="w-6 h-6 text-indigo-400" />
                                 }
@@ -87,8 +87,8 @@ const Academy = () => {
                                 <div className="grid grid-cols-3 gap-4 mb-8">
                                     {[
                                         { icon: <GraduationCap />, value: "95%", label: "Employment rate" },
-                                        { icon: <Users />, value: "200+", label: "Students trained" },
-                                        { icon: <Building2 />, value: "50+", label: "Partner companies" }
+                                        { icon: <Users />, value: "20+", label: "Students trained" },
+                                        { icon: <Building2 />, value: "5+", label: "Partner companies" }
                                     ].map((stat, index) => (
                                         <div key={index} className="text-center p-4 rounded-xl bg-white/5">
                                             <div className="text-2xl font-bold mb-1 text-white">{stat.value}</div>

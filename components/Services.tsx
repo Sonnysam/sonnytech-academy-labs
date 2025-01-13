@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Cloud, Sparkles, Shapes, BookOpen, LineChart, Workflow, ArrowRight } from 'lucide-react';
+import { Code, Cloud, Sparkles, BookOpen, Workflow, ArrowRight } from 'lucide-react';
 
 const services = [
     {
@@ -20,24 +20,24 @@ const services = [
         description: "Intelligent solutions leveraging computer vision, NLP, and predictive analytics for business automation.",
         tags: ["ML", "NLP", "Analytics", "AI"]
     },
-    {
-        icon: <Shapes className="w-10 h-10" />,
-        title: "Blockchain Development",
-        description: "Web3 solutions including smart contracts, DeFi applications, and enterprise blockchain implementations.",
-        tags: ["Web3", "DeFi", "Smart Contracts"]
-    },
+    // {
+    //     icon: <Shapes className="w-10 h-10" />,
+    //     title: "Blockchain Development",
+    //     description: "Web3 solutions including smart contracts, DeFi applications, and enterprise blockchain implementations.",
+    //     tags: ["Web3", "DeFi", "Smart Contracts"]
+    // },
     {
         icon: <BookOpen className="w-10 h-10" />,
         title: "Tech Education",
         description: "Comprehensive training programs in software development, cloud computing, and emerging technologies.",
         tags: ["Training", "Workshops", "Mentorship"]
     },
-    {
-        icon: <LineChart className="w-10 h-10" />,
-        title: "Digital Strategy",
-        description: "Technology consulting and digital transformation roadmaps for businesses entering the tech space.",
-        tags: ["Consulting", "Strategy", "Innovation"]
-    }
+    // {
+    //     icon: <LineChart className="w-10 h-10" />,
+    //     title: "Digital Strategy",
+    //     description: "Technology consulting and digital transformation roadmaps for businesses entering the tech space.",
+    //     tags: ["Consulting", "Strategy", "Innovation"]
+    // }
 ];
 
 export default function Services() {

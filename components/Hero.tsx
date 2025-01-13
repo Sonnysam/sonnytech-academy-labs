@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, ChevronDown, Sparkles, Globe } from 'lucide-react';
+import { ArrowRight, ChevronDown, Globe } from 'lucide-react';
 
 export default function Hero() {
     const [isVisible, setIsVisible] = useState(false);
@@ -23,18 +23,18 @@ export default function Hero() {
                 }`}>
                 <div className="max-w-4xl">
                     {/* Announcement banner */}
-                    <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm mb-6 hover:bg-white/20 transition-colors cursor-pointer group">
+                    {/* <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm mb-6 hover:bg-white/20 transition-colors cursor-pointer group">
                         <Sparkles className="w-4 h-4 text-yellow-400" />
                         <span>Applications Open for 2025 Internship Program</span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </div>
+                    </div> */}
 
                     {/* Main heading */}
                     <h1 className="text-6xl lg:text-7xl font-bold mb-8 leading-tight">
                         Shaping the Future of
-                        <div className="inline-flex flex-col h-[84px] overflow-hidden">
-                            <span className="ml-4 animate-slide-up bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-transparent bg-clip-text"> Tech in Africa</span>
-                        </div>
+                        {/* <div className="inline-flex flex-col h-[84px] overflow-hidden"> */}
+                        <span className="animate-slide-up bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">{" "}Tech in Africa</span>
+                        {/* </div> */}
                     </h1>
 
                     {/* Description */}
